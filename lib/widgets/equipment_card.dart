@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 
 import '../models/equipment_item.dart';
-import '../utils/app_colors.dart';
 
 class EquipmentCard extends StatelessWidget {
-  final EquipmentCard item;
+  final EquipmentItem item;
   final Widget statusBadge;
   final VoidCallback? onTap;
 
@@ -52,6 +51,7 @@ class EquipmentCard extends StatelessWidget {
                 ],
               ),
             ),
+            statusBadge,
           ],
         ),
       ),
