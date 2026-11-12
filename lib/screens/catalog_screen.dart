@@ -58,7 +58,6 @@ class CatalogScreen extends StatelessWidget {
       ),
       body: Column(
         children: [
-          // Decorated Dashboard Banner
           Container(
             width: double.infinity,
             margin: const EdgeInsets.all(16),
@@ -102,7 +101,6 @@ class CatalogScreen extends StatelessWidget {
             ),
           ),
 
-          // Scrollable Equipment List
           Expanded(
             child: ListView.builder(
               itemCount: equipmentList.length,

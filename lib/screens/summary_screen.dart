@@ -1,4 +1,3 @@
-// lib/screens/summary_screen.dart
 import 'package:flutter/material.dart';
 
 import '../models/equipment_item.dart';
