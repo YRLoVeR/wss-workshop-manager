@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:wss_workshop_manager/models/equipment_item.dart';
 import 'package:wss_workshop_manager/utils/app_colors.dart';
 
-// import 'summary_screen.dart';
+import 'summary_screen.dart';
 
 class DetailScreen extends StatefulWidget {
   final EquipmentItem item;
